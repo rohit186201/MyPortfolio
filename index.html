@@ -30,7 +30,7 @@
                         setTimeout(function () {
                             const animationContainer = document.getElementById('animation-container');
                             animationContainer.style.display = 'none';
-                        }, 800); // Should match the transition duration (2 seconds in this example)
+                        }, 600); // Should match the transition duration (2 seconds in this example)
                     }, 500); // Adjust the delay before starting the fade-out (5 seconds in this example)
                 }
 
@@ -262,7 +262,7 @@ A highly motivated and technically adept computer science graduate with a strong
             </section> 
             
            
-<!-----------------blog------------------->
+<!-----------------Project------------------->
             
             <div class="container" id="blog">
                   <section class="work section" id="work">
@@ -270,18 +270,18 @@ A highly motivated and technically adept computer science graduate with a strong
         <div class="grid">
             <div class="card">
                 <div class="card_img">
-                    <img src="assets/img/ECDH.webp" alt="">
+                    <img style="height: 25.2pc;" src="assets/img/ECDH.gif" alt="">
                 </div>
                 <div class="card_body">
                     <h2 class="card_title">Elliptic-curve Diffie–Hellman</h2>
                     <p>Implemented the TLS draft 1.4 with “Elliptic-curve Diffie–Hellman” key exchange using python as base language and successfully demonstrated the server client working on the same using python asyncio. We also demonstrated the man in the middle attack by imitating a real time client using fake credentials and successfully defended it through runtime checks. 
-                    </p><br><br><br><br><br><br><br><br><br>
+                    </p><br><br><br><br><br><br><br><br>
                     <a href="https://github.com/rohit186201/Diffie-Hellman.git" target="_blank" class="read_more">GitHub</a>
                 </div>
             </div>
             <div class="card">
                 <div class="card_img">
-                    <img src="assets/img/CropEye.png" alt="">
+                    <img style="height: 25.1pc;" src="assets/img/CropEye.gif" alt="">
                 </div>
                 <div class="card_body">
                     <h2 class="card_title">CropEye</h2>
@@ -293,13 +293,35 @@ A highly motivated and technically adept computer science graduate with a strong
             </div>
             <div class="card">
                 <div class="card_img">
-                    <img src="assets/img/RSA.png" alt="">
+                    <img style="height: 25pc;" src="assets/img/RSA.gif" alt="">
                 </div>
                 <div class="card_body">
                     <h2 class="card_title">Parallelizing RSA Cryptosystem</h2>
-                    <p>Parallelizing RSA to utilize distributed or multi core systems. I proposed a method using Montgomery Reduction algorithm and a parallel data structure called Parallel Indexed List which was designed to be thread safe and sharable among multiple worker threads for encryption and decryption. My approach achieved a speed up factor of up to 4.5 as compared to normal RSA implementation. My approach can be integrated with the industry standard library which was demonstrated with the help of C++ library known as crypto++. Unit testing was done using Google Test.</p>
+                    <p>Parallelizing RSA to utilize distributed or multi core systems. I proposed a method using Montgomery Reduction algorithm and a parallel data structure called Parallel Indexed List which was designed to be thread safe and sharable among multiple worker threads for encryption and decryption. My approach achieved a speed up factor of up to 4.5 as compared to normal RSA implementation. My approach can be integrated with the industry standard library which was demonstrated with the help of C++ library known as crypto++. Unit testing was done using Google Test.</p><br><br>
                     
                     <a href="https://github.com/rohit186201/RSA-Prallelization.git" target="_blank" class="read_more">GitHub</a>
+                </div>  
+            </div>
+            <div class="card">
+                <div class="card_img">
+                    <img src="assets/img/QRCode.gif" alt="">
+                </div>
+                <div class="card_body">
+                    <h2 class="card_title">Code Scanner</h2>
+                    <p>Developed a real-time barcode and QRCode decoding and authentication system using Python, OpenCV, and PyZBar libraries. The decoder captures live video frames, decodes barcodes using PyZBar, and visually displays the decoded information. The authentication module utilizes a predefined list to verify decoded data, providing an immediate authentication status on the video feed.  
+                    </p><br><br>
+                    <a href="https://github.com/rohit186201/Code-Scanner.git" target="_blank" class="read_more">GitHub</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img">
+                    <img style="height: 25.3pc; width: auto;" src="assets/img/Assistant.gif" alt="">
+                </div>
+                <div class="card_body">
+                    <h2 class="card_title">AI Assistant</h2>
+                    <p>DEveloped a voice-controlled personal assistants. Proficient in utilizing technologies such as pyttsx3, speech_recognition, and integration with APIs like Wikipedia. Demonstrated ability to automate tasks, perform voice-based searches, and interact with web browsers using Python.  
+                    </p><br><br><br><br><br><br>
+                    <a href="https://github.com/rohit186201/AI-Assistant.git" target="_blank" class="read_more">GitHub</a>
                 </div>
             </div>
         </div>
