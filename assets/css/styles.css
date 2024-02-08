@@ -596,9 +596,9 @@ work__container bd-grid{
 .card {
     overflow: hidden;
     padding: 20px;
-    background-color: #FFF;
+    background-color: rgb(187, 193, 245);
     border-radius: 30px;
-    text-align: center;
+    text-align: center;;
     
 }
 
@@ -611,6 +611,7 @@ work__container bd-grid{
 
 .card_body {
     padding: 26px 20px 36px 20px;
+    height: 50pc;
 }
 
 .card_title {
