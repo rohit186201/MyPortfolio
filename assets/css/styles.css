@@ -50,7 +50,7 @@
   z-index: 9999;
   /* Make sure it's on top of your webpage content */
   opacity: 1;
-  transition: opacity 2s;
+  transition: opacity 1s;
   /* Adjust the duration as needed */
 }
 
@@ -59,7 +59,7 @@
   color: white;
   text-align: center;
   opacity: 1;
-  transition: opacity 2s;
+  transition: opacity 1s;
   /* Adjust the duration as needed */
 }
 
