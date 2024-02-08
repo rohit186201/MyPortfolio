@@ -36,7 +36,7 @@
 }
 
 
-555#animation-container {
+#animation-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -54,7 +54,7 @@
   /* Adjust the duration as needed */
 }
 
-55#animation-text {
+#animation-text {
   font-size: 2rem;
   color: white;
   text-align: center;
