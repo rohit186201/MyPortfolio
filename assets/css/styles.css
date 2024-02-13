@@ -379,7 +379,8 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
-  row-gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 work__container bd-grid{
     hover {
@@ -405,8 +406,16 @@ work__container bd-grid{
   height: 100%;
   width: 100%;
 }
-
+.Qwork__img img {
+  transition: 1s;
+  height: 200px;
+  width: 360px;
+}
 .work__img img:hover {
+  transform: scale(1.1);
+}
+
+.Qwork__img img:hover {
   transform: scale(1.1);
 }
 
