@@ -403,8 +403,8 @@ work__container bd-grid{
 
 .work__img img {
   transition: 1s;
-  height: 100%;
-  width: 100%;
+  height: 200px;
+  width: 380px;
 }
 .Qwork__img img {
   transition: 1s;
