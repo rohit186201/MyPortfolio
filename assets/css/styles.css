@@ -257,7 +257,6 @@ img {
 }
 
 .home__img {
-  position: absolute;
   right: 0;
   bottom: 0;
   width: 260px;
@@ -345,6 +344,12 @@ img {
   align-items: center;
 }
 
+.programming {
+  display: flex;
+  align-items: center;
+}
+
+
 .skills__bar {
   position: absolute;
   left: 0;
@@ -404,12 +409,12 @@ work__container bd-grid{
 .work__img img {
   transition: 1s;
   height: 200px;
-  width: 380px;
+  width: 360px;
 }
 .Qwork__img img {
   transition: 1s;
   height: 200px;
-  width: 360px;
+  width: 234px;
 }
 .work__img img:hover {
   transform: scale(1.1);
@@ -487,6 +492,7 @@ work__container bd-grid{
     padding-bottom: 2.5rem;
     flex-direction: row;
     align-self: flex-end;
+    margin-top: 20px;
   }
   .home__social-icon {
     margin-bottom: 0;
@@ -584,6 +590,7 @@ work__container bd-grid{
   }
   .home {
     padding: 10rem 0 2rem;
+    display: flex;
   }
   .home__img {
     width: 450px;
