@@ -404,6 +404,7 @@ work__container bd-grid{
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
+  align-self: center;
 }
 
 .work__img img {
@@ -411,17 +412,25 @@ work__container bd-grid{
   height: 200px;
   width: 360px;
 }
-.Qwork__img img {
-  transition: 1s;
-  height: 200px;
-  width: 234px;
+
 }
 .work__img img:hover {
   transform: scale(1.1);
 }
 
-.Qwork__img img:hover {
-  transform: scale(1.1);
+.work__list {
+  list-style-type: disc; /* Ensures bullet points (disc) are used */
+  padding-left: 20px; /* Adds indentation for the bullet points */
+  margin-top: 10px; /* Adds space between the job title and the list */
+}
+
+.work__list li {
+  margin-bottom: 8px; /* Adds space between list items */
+  line-height: 1.5; /* Improves readability with better line spacing */
+}
+
+.work__list li strong {
+  font-weight: bold; /* Ensures "Tools:" is bold as in your original */
 }
 
 /* ===== CONTACT =====*/
