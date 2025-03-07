@@ -409,13 +409,12 @@ work__container bd-grid{
 
 .work__img img {
   transition: 1s;
-  height: 200px;
-  width: 360px;
+  height: 316px;
+  width: 450px;
 }
 
-}
 .work__img img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .work__list {
