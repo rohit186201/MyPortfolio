@@ -7,6 +7,7 @@ Welcome to **MyPortfolio**, a responsive personal portfolio website designed and
 ## 🚀 Features
 
 ### 🎨 Responsive & Interactive UI
+
 - **Responsive Design:** Fully optimized to work seamlessly across various devices, including desktops, tablets, and smartphones.
 - **Interactive UI:** Engaging, interactive elements and smooth transitions for enhanced user experience.
 - **Dark/Light Mode:** Easily toggle between dark and light themes to suit your viewing preference.
@@ -15,11 +16,12 @@ Welcome to **MyPortfolio**, a responsive personal portfolio website designed and
 
 ## 📸 Project Preview
 
-![Portfolio Screenshot](assets/image.png)
+![Portfolio Screenshot](assets/img/Screenshot.jpg)
 
 ## 🛠 Technologies Used
 
 The project is developed using:
+
 - **HTML5**
 - **CSS3**
 - **JavaScript**
@@ -30,16 +32,19 @@ The project is developed using:
 To run the project locally, follow these steps:
 
 ### 🔹 Step 1: Clone the Repository
+
 ```bash
 git clone https://github.com/rohit186201/MyPortfolio.git
 ```
 
 ### 🔹 Step 2: Navigate into the Project Folder
+
 ```bash
 cd MyPortfolio
 ```
 
 ### 🔹 Step 3: Open the Project
+
 - Simply double-click on `index.html`, or
 - Open it using a web browser of your choice (Chrome, Firefox, Safari, Edge).
 
@@ -62,4 +67,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ### 🌟 Thank You for Visiting!
 
 Created by [Rohit Rawat](https://github.com/rohit186201)
-
