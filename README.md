@@ -12,7 +12,7 @@ Welcome to **MyPortfolio**, a responsive personal portfolio website designed and
 - **Interactive UI:** Engaging, interactive elements and smooth transitions for enhanced user experience.
 - **Dark/Light Mode:** Easily toggle between dark and light themes to suit your viewing preference.
 - **Smooth Navigation:** Smooth scrolling and intuitive navigation between different sections.
-- **Mobile-Friendly:** Adheres to mobile-first design principles ensuring excellent performance on smaller screen.
+- **Mobile-Friendly:** Adheres to mobile-first design principles ensuring excellent performance on smaller screens.
 
 ## 📸 Project Preview
 
